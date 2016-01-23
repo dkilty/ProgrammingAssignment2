@@ -22,6 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Given a makeCacheMatrix object 
 ## computes the inverse of the matrix ands saves it
+## If the cache inverse exists, just return the cached inverse
 ## in the cacheMatrix object
 ## x: the makeCacheMatrix object
 
